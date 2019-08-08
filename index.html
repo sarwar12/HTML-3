@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>3rd Class</title>
+</head>
+<body>
+	<h1 style="background: teal; color: yellow; padding: 25px 0; text-align: center; margin-bottom: 0;">This Is Registration Form</h1>
+	<!--Form Tag start-->
+	<center>
+	<form action="" method="get" target="_blank" style="background: lightblue; padding: 25px 5px;">
+	  <fieldset> <legend>Form Data</legend>
+		First Name: <br /> <!--General information-->
+			<input type="text" name="first name" size="30" placeholder="insert your first name" /> <br /> 
+		Last Name: <br /> 
+			<input type="text" name="last name" size="30" placeholder="insert your last name" /> <br /> 
+		Birth Of Date: <br /> 
+			<input type="date" name="birthdate" /> <br />
+		Password: <br /> 
+			<input type="password" name="password" size="30" placeholder="insert your password" /> <br /> 
+		Retype Password: <br /> 
+			<input type="password" name="retype password" size="30" placeholder="insert your retype password"/> <br />
+		Email: <br /> 
+			<input type="email" name="email" size="30" placeholder="insert your email" /> <br /> <br />
+	  </fieldset>
+		Gender: <br />  <!--Gender-->
+			<label for="male">Male</label>
+			<input type="radio" name="gender" value="male" /><br />
+			<label for="female">Female</label>
+			<input type="radio" name="gender" value="female" /> <br />
+			<label for="other">Others</label>
+			<input type="radio" name="gender" value="others" /><br /> <br />
+		Educational Qualification: <br /> <!--Educational Qualification-->
+			<input type="checkbox" name="Edu_qua" value="SSC"/> SSC
+			<input type="checkbox" name="Edu_qua" value="HSC"/> HSC
+			<input type="checkbox" name="Edu_qua" value="BBA"/> BBA
+			<input type="checkbox" name="Edu_qua" value="MBA"/> MBA
+			<br /><br />
+		<select name="district"> <!--Districts-->
+			<optgroup label="Dhaka Zone"> 
+				<option value="savar">Savar</option>
+				<option value="ttpada">TT.Pada</option>
+				<option value="jatrabadi">Jatrabadi</option>
+				<option value="narayanganj">Narayanganj</option>
+				<option value="uttara">uttara</option>
+			</optgroup>
+			<optgroup label="Feni Zone">
+				<option value="laskarhat">Laskarhat</option>
+				<option value="sonagazi">Sonagazi</option>
+				<option value="bhuiyan_hat">Bhuiyan Hat</option>
+				<option value="porsuram">Porsuram</option>
+				<option value="motobi">Motobi</option>
+			</optgroup>
+			<optgroup label="Cumilla Zone">
+				<option value="debidar">Devidar</option>
+				<option value="laksam">Laksam</option>
+				<option value="nagolkot">Nagolkot</option>
+				<option value="cheoda">Cheoda</option>
+				<option value="hasanpur">Hasanpur</option>
+			</optgroup>
+		</select> <br /><br />
+		<textarea name="texts" cols="40" rows="10" placeholder="Please insert your data" maxlength="5"></textarea> <br /> <br />
+		<input type="submit" style="padding: 5px; color: green; border:2px solid blue;" value="Submit Data">
+		<input type="reset" style="padding: 5px; color: red; border:2px solid blue;" value="Reset Data!" />
+	</form>
+	</center>
+	<!--Form Tag End-->
+</body>
+</html>
