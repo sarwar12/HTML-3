@@ -1,6 +1,6 @@
 # HTML-3
 
-TAGS::
+### TAGS::
 	29. Form <form> </form> (you create a form an & use this tag)
 	30. Input <input />
 	31. Label <label> </label>
@@ -13,7 +13,7 @@ TAGS::
 	38. button <button></button>
 
 
-Attributes::
+### Attributes::
 
 	Form= action, 
 	              method (post, get) data hidden process by use "post" & Data showing process by use "get".
