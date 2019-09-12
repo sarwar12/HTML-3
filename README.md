@@ -26,12 +26,15 @@
 	select= name
 	option= value
 	optgroup= label
-	TextArea= cols, rows, name(text/comment) / Placeholder(mirror data), disabled(dont write text), 				 		maxlenght(You Tell How may letter write the textarea), 
-		 readonly(dont write text just read the text),
-		 required (dont write text you dont submit a data)
+	Textarea= cols, rows, name(text/comment) / Placeholder(mirror data), 
+		  disabled(dont write text), 				 	  
+		  maxlenght(You Tell How may letter write the textarea), 
+		  readonly(dont write text just read the text),
+		  required (dont write text you dont submit a data)
 	
 
 
+***
 
 # G_SARWAR
 ### Web_Instructor
